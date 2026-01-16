@@ -10,14 +10,20 @@ export default function Home() {
           style={{
             fontSize: '50px',
             lineHeight: '104px',
-            letterSpacing: '13.6px'
+            letterSpacing: '3px',
+            verticalAlign: 'middle',
+            borderColor: 'transparent',
+            borderStyle: 'none',
+            borderImage: 'none',
+            background: 'unset',
+            backgroundColor: 'unset'
           }}
         >
           Willkommen auf meiner Webseite
         </p>
         <div className="flex justify-center gap-4 mt-8">
           <div className="w-3 h-3 bg-pink-400 rounded-full animate-bounce" style={{ animationDelay: '0s' }}></div>
-          <div className="w-3 h-3 bg-purple-400 rounded-full animate-bounce" style={{ animationDelay: '0.2s' }}></div>
+          <div className="w-3 h-3 bg-pink-500 rounded-full animate-bounce" style={{ animationDelay: '0.2s' }}></div>
           <div className="w-3 h-3 bg-blue-400 rounded-full animate-bounce" style={{ animationDelay: '0.4s' }}></div>
         </div>
       </div>
