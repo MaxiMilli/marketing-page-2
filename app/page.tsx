@@ -5,7 +5,14 @@ export default function Home() {
         <h1 className="text-6xl md:text-8xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400">
           Hallo Züri!
         </h1>
-        <p className="text-xl md:text-2xl text-gray-600 font-light">
+        <p 
+          className="text-gray-600 font-black"
+          style={{
+            fontSize: '50px',
+            lineHeight: '104px',
+            letterSpacing: '13.6px'
+          }}
+        >
           Willkommen auf meiner Webseite
         </p>
         <div className="flex justify-center gap-4 mt-8">
